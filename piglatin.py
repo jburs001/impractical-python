@@ -19,8 +19,6 @@ def piglatin(word):
         mod_word = mod_word + cons_end
         return mod_word
 
-
-
 word = input("Please enter a word.\n")
 print(f"{word} in pig latin is {piglatin(word)}")
 

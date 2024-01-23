@@ -8,7 +8,7 @@ def vowel(word):
         is_vowel = True
     return is_vowel
 
-"""Function to convert word to piglatin"""
+"""Function to convert words to piglatin"""
 def piglatin(word):
     is_vowel = vowel(word)
     vowel_end = "way"
